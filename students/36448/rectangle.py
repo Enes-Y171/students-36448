@@ -5,7 +5,7 @@ class Rectangle:
   def area(self):
     return self.width * self.height
   def parameter(self):
-    return 2*(self.width * self.height)
+    return 2*(self.width + self.height)
 r1 = Rectangle(5, 3)
 print(r1.area())
 print(r1.parameter())
