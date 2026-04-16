@@ -1,17 +1,18 @@
-class Star:
-   def __init__(self, name, color):
+class Player:
+    def __init__(self, name, hp, atk, lvl):
         self.name = name
-        self.color = color
-s1 = Star("star_first", "yellow")
-
-print(s1.name, s1.color)
-
-class Monitor:
-    def __init__(self, brand, size, color, shape):
-        self.brand = brand
-        self.size = size
-        self.color = color
-        self.shape = shape
-m1 = Monitor("philips", 23, "black", "flat")
+        self.hp = hp
+        self.atk = atk
+        self.lvl = lvl
+p1 = Player("PLAYER1", 255, "45", "15")
              
-print(m1.brand, m1.size, m1.color, m1.shape)
+print(p1.name, p1.hp, p1.atk, p1.lvl)
+
+class Enemy:
+    def __init__(self, name, hp, atk, lvl):
+        self.name = name
+        self.hp = hp
+        self.atk = atk
+        self.lvl = lvl
+e1 = Enemy("goblin", 100, 25, 5)
+print(e1.name, e1.hp, e1.atk, e1.lvl)
