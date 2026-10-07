@@ -1,0 +1,14 @@
+Light Sensors
+
+Purpose:
+The purpose of this is to measure ambient light levels and automatically control the led based on brightness.
+
+Necessary Devices:
+Esp32 Dev board, LDR, resistor, LED, Breadboard, Jumper wires, USB cable.
+
+Steps:
+1-Connect the LDR and resistor as a voltage divider and link it to esp32 analog pin
+2-Connect the LED to a digital pin with a resistor
+3-Set up the ESP32
+4-Set a brightness threshold
+5-Turn the LED on or off depending on the level of light
